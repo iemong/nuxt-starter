@@ -3,7 +3,7 @@
     nuxt
 </template>
 
-<style>
+<style lang="scss">
 html {
     box-sizing: border-box;
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
