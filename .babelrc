@@ -1,17 +1,17 @@
 {
-  "plugins": ["babel-plugin-transform-decorators"],
-  "env": {
-    "test": {
-      "presets": [
-        [
-          "@babel/preset-env",
-          {
-            "targets": {
-              "node": "current"
-            }
-          }
-        ]
-      ]
+    "plugins": ["babel-plugin-transform-decorators"],
+    "env": {
+        "test": {
+            "presets": [
+                [
+                    "@babel/preset-env",
+                    {
+                        "targets": {
+                            "node": "current"
+                        }
+                    }
+                ]
+            ]
+        }
     }
-  }
 }
